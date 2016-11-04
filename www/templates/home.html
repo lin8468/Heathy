@@ -1,0 +1,57 @@
+<ion-view view-title="养生小常识" >
+	<ion-content ng-controller="homeContrller">
+		<!-- ionic 轮播 -->
+		<ion-slide-box does-continue="true"  auto-play="true" slide-interval="3000" >
+			<ion-slide>
+				<div class="box">
+					<img src="img/1.jpg" alt="">
+				</div>
+			</ion-slide>
+			<ion-slide>
+				<div class="box">
+					<img src="img/2.jpg" alt="">
+				</div>
+			</ion-slide>
+			<ion-slide>
+				<div class="box">
+					<img src="img/3.jpg" alt="">
+				</div>
+			</ion-slide>
+			<ion-slide on-slide-changed="slideHasChanged(index)">
+				<div class="box pink">
+					<img src="img/0.jpg" alt="">
+				</div>
+			</ion-slide>
+		</ion-slide-box>
+		<!-- 分类列表 -->
+
+		<div class="list liebiao">
+		    <a class="item item-thumbnail-left" href="#/tab/more">
+		      <img src="img/001.jpg">
+		      <h2>食疗食补宜忌</h2>
+		      <p>Avoid diet to eat the appropriate</p>
+		      <i class="icon"></i>
+		    </a>
+		    <a class="item item-thumbnail-left" href="#/tab/more">
+		      <img src="img/6.jpg">
+		      <h2>菜品宜忌</h2>
+		      <p>Avoid food appropriate</p>
+		    </a>
+		    <a class="item item-thumbnail-left" href="#/tab/more">
+		      <img src="img/003.jpg">
+		      <h2>食材宜忌</h2>
+		      <p>Avoid food appropriate</p>
+		    </a>
+		    <a class="item item-thumbnail-left" href="#/tab/more">
+		      <img src="img/006.jpg">
+		      <h2>饮食禁忌</h2>
+		      <p>Likes and Dislikes</p>
+		    </a>
+		    <a class="item item-thumbnail-left" href="#/tab/more">
+		      <img src="img/004.jpg">
+		      <h2>营养素含量查询</h2>
+		      <p>Nutrient content of the query</p>
+		    </a>
+		</div>
+	</ion-content>
+</ion-view>

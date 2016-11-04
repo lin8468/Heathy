@@ -1,0 +1,30 @@
+/* Empty. Add your own CSS if you like */
+body,html{font-family: "微软雅黑"}
+a{text-decoration: none}
+.tabs{height: 54px;padding-top: 3px;font-size: 26px;}
+.box{width:100%;height: 180px;}
+.box img{width:100%;height: 180px;}
+.col{color: #000;}
+.liebiao h2{margin-top: 15px;margin-bottom: 5px;}
+.liebiao a img{border-radius: 50%;border-right: 1px solid #ccc;}
+
+
+/*小常识*/
+.titles{font-size: 24px;padding:10px;padding-bottom: 0px;}
+
+/*返回样式*/
+.bar .buttons span{font-size: 15px;font-family: "微软雅黑";display: none;}
+
+#cart{border-bottom: 1px solid #ccc;}
+#shipu {border:0;}
+#shipu img{width:100%;height: auto;}
+#tit{text-align: center;}
+#op{padding: 15px;}
+
+/*我的*/
+#mine{border:0;height: 200px;background:#ebaef2;}
+#mine img{display: block;width:100px;height: 100px;margin: 0 auto;}
+#btn{width:100px;line-height:40px;display:block;margin:0 auto;margin:10px auto;background: 0;border:0;
+	height: 40px;border:1px solid #868386;padding: 0 20px;font-family: "微软雅黑";font-size: 14px;}
+
+#login label{margin-top: 10px;}
